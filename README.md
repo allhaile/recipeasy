@@ -16,3 +16,19 @@ Click on the CORS icon.
 Once you are ready to begin using the website, toggle the switch for "Enable cross-origin resource sharing." Copy and paste the following link in the user input "URL or URL pattern" section after your http://O.O.O.####/recipe_feed where the #### stands for the port number.
 
 Refresh your page and you are ready to begin.
+
+
+## Video Walkthrough
+
+Here's a walkthrough of our development iterations:
+
+
+#### Walkthrough
+<img src='https://imgur.com/XKLKPZa.gif' title='Iteration 1' width='' alt='Video Walkthrough' />
+
+#### Technologies Used
+* Python (Flask)
+* Sqlite (Database)
+* JQuery
+* Bootstrap CSS
+* HTML 
