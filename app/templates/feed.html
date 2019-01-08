@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/feed.css') }}">
+
+<div class = "icon_grid">
+  <img src = "../../static/img/cupcake.png" class="search_icon">
+  <img src = "../../static/img/sandwich.png" class="search_icon">
+  <img src = "../../static/img/turkey.png" class="search_icon">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="searchcontainer">
+  <input type="text" id="query" placeholder="Search for a recipe">
+  <button id="submit" name="button">Search</button>
+</div>
+
+<br><br>
+<section>
+  <h2 id="displayQuery"></h2>
+  <div id="recipes">
+  </div>
+</section>
+
+<br><br>
+<!-- <section>
+  <h2 id="displaySaved">Saved results</h2>
+  <div id="savedRecipes">
+  </div>
+</section> -->
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<span id="profilename">{{ name }}</span>
+
+<!-- <section>
+  <h5 id="recent_recipes"> Recently saved recipes </h5>
+    <div class="recent_recipes">
+    </div>
+  </section> -->
+
+<section>
+  <div class = "icon_grid">
+    <img src = "../../static/img/cupcake.png" class="search_icon">
+    <img src = "../../static/img/sandwich.png" class="search_icon">
+    <img src = "../../static/img/turkey.png" class="search_icon">
+  </div>
+  <h5 id="all_recipes"> Check out all your saved recipes! </h5>
+  <br><br><br>
+    <div id="list_recipes">
+      {% for recipe in recipes %}
+      <div class="ind_recipe">
+        <tr>
+          <td>
+            <p class="title">{{ recipe[1] }}</p>
+          </td>
+          <td>
+            <img id = "food_img" src="{{ recipe[2] }}">
+          </td>
+          <td>
+            <a class="recipeLink" href="{{ recipe[3] }}" target="_blank">
+              <img class="link" src="../static/img/link2.png" style="width:20px !important;height:20px !important; border:none;">
+            </a>
+          </td>
+          <td>
+            <button class="trash"><img src="../static/img/trash.png" style="width:20px !important;height:20px !important; border:none;">
+            </button>
+          </td>
+        </tr>
+      </div>
+        {% endfor %}
+      </table>
+    </div>
+</section>
+
+
+{% endblock %}

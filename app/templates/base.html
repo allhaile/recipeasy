@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>RecipEasy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src=../static/js/recipes.js></script>
+</head>
+
+	<body>
+    <div id = 'headline'>
+      <h1 id="product"> RecipEasy </h1>
+      {% if current_user.is_authenticated %}
+      <img src = "../../static/img/logo.png" id="logo_inside">
+      <button id='home'  onclick="window.location.href='{{ url_for( 'index') }}';" type="button">Home
+      </button>
+      <button id='saved'  onclick="window.location.href='{{ url_for( 'display_profile') }}';" type="button">Profile
+      </button>
+      <button id='logout'  onclick="window.location.href='{{ url_for( 'logout') }}';" type="button">Logout
+      </button>
+      {% else %}
+      <img src = "../../static/img/logo.png" id="logo_inside">
+      <button id='signup'  onclick="window.location.href='{{ url_for( 'signup') }}';" type="button">signup</button>
+      <button id='login' onclick="window.location.href='{{ url_for( 'login') }}';" type="action">login</button>
+      {% endif %}
+    </div>
+    {% block content %}{% endblock %}
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    {{ message }}
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+  </body>
+  <!-- <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap-waterfall.js') }}"></script>

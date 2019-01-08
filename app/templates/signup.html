@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+
+     <div class="login-form">
+       <img src = "../static/img/logo.png" id="logo">
+       <h2> Welcome to RecipEasy </h2>
+       <h5> Sharpen your cooking skills </h5><br><br>
+        <div class="form-group ">
+            <form action="" method="post">
+                {{ form.hidden_tag() }}
+                <p>
+                    {{ form.username(placeholder = "Username") }}
+                </p>
+                <p>
+                    {{ form.email(placeholder = "Email") }}
+                </p>
+                <p>
+                    {{ form.password(placeholder = "Password") }}
+                </p>
+                <p>{{ form.submit(class = "log-btn") }}</p>
+            </form>
+            <p id="signup-link">Go back to <a href="{{ url_for('login', title='Log-In', form=form) }}">Log In</a> page</p>
+        </div>
+    {% if error %}
+    <p class=error><strong>Error:</strong> {{ error }}
+    {% endif %}
+
+<style>
+  body {
+    background-image: url({{ url_for('static', filename='img/login_background4.jpg') }});
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+  }
+</style>
+{% endblock %}
