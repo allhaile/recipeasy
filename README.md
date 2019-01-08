@@ -24,7 +24,10 @@ Here's a walkthrough of our development iterations:
 
 
 #### Walkthrough
-<img src='https://imgur.com/XKLKPZa.gif' title='Iteration 1' width='' alt='Video Walkthrough' />
+https://imgur.com/a/Ds6Y9hw
+<img src='https://imgur.com/a/Ds6Y9hw.gif' title='Iteration 1' width='' alt='Video Walkthrough' />
+
+[Imgur](https://i.imgur.com/XKLKPZa.gifv)
 
 #### Technologies Used
 * Python (Flask)
