@@ -22,6 +22,8 @@ Refresh your page and you are ready to begin.
 
 Here's a walkthrough of our development iterations:
 
+![](/gifs/onboarding.gif)
+
 
 #### Walkthrough
 
