@@ -21,8 +21,8 @@ Refresh your page and you are ready to begin.
 ## Video Walkthrough
 
 Here's a walkthrough of our development iterations:
-
-![](/gifs/onboarding.gif)
+### Onboarding
+![](/gifs/onboarding.gif | width=100)
 
 
 #### Walkthrough
