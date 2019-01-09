@@ -22,10 +22,16 @@ Refresh your page and you are ready to begin.
 
 Here's a walkthrough of our development iterations:
 ### Onboarding
-<img src="/gifs/onboarding.gif" width="448" height="252" />
+<img src="/gifs/onboarding.gif" width="576" height="324" />
+
+### Search Function
+<img src="/gifs/search-func.gif" width="576" height="324" />
+
+### Profile View
+<img src="/gifs/profile-view.gif" width="576" height="324" />
 
 
-![](/gifs/onboarding.gif)
+// ![](/gifs/onboarding.gif)
 
 
 #### Walkthrough
