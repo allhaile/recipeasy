@@ -42,6 +42,7 @@ Once an user is signed in we created an interface that looks familiar to a Pinte
 
 ### Profile View
 After saving as many recipes from multiple searches the user can then decide to view their saved recipes on the profile page (pictured below). If a user decides to scrap a recipe they can simply click the trash can icon and the recipe image will be deleted from their profile.
+
 <img src="/gifs/profile-view.gif"  />
 
 <!-- > ![](/gifs/onboarding.gif) -->
