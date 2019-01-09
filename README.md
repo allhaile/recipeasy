@@ -22,21 +22,17 @@ Refresh your page and you are ready to begin.
 
 Here's a walkthrough of our development iterations:
 ### Onboarding
-<img src="/gifs/onboarding.gif" width="576" height="324" />
+<img src="/gifs/onboarding.gif"  />
 
 ### Search Function
-<img src="/gifs/search-func.gif" width="576" height="324" />
+<img src="/gifs/search-func.gif"  />
 
 ### Profile View
-<img src="/gifs/profile-view.gif" width="576" height="324" />
+<img src="/gifs/profile-view.gif"  />
+
+<!-- > ![](/gifs/onboarding.gif) -->
 
 
-// ![](/gifs/onboarding.gif)
-
-
-#### Walkthrough
-
-<img src='https://imgur.com/a/7pOtLfi.gif' title='Iteration1' width='' alt='Video Walkthrough' />
 
 
 #### Technologies Used
