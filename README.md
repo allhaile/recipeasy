@@ -22,7 +22,10 @@ Refresh your page and you are ready to begin.
 
 Here's a walkthrough of our development iterations:
 ### Onboarding
-![](/gifs/onboarding.gif | width=100)
+<img src="/gifs/onboarding.gif" width="100" height="130" />
+
+
+![](/gifs/onboarding.gif)
 
 
 #### Walkthrough
